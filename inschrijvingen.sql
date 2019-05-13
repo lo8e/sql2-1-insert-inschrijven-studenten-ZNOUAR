@@ -1,3 +1,3 @@
 UPDATE studenten
-SET geboortedatum = '2019-01-01'
-WHERE voornaam = 'Osman';
+SET inschrijvings_datum = 'inactief'
+WHERE inschrijvings_datum < '2017-01-01';
